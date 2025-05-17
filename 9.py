@@ -1,4 +1,16 @@
-#9. Escribir un programa que almacene la cadena ¡Hola Mundo! en una variable y luego
-# muestre por pantalla el contenido de la variable.
-saludo="hola mundo "
-print(saludo)
+#Pedir al usuario su edad y mostrar si es mayor o no de edad
+
+
+
+
+def menu():
+	edad=int(input(" ingrese edad "))
+	if edad>21:
+		print(" es mayor ")
+	else:print(" es menor ")
+	
+	
+menu()
+
+
+

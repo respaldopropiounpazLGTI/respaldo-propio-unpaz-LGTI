@@ -1,7 +1,11 @@
-#8. Escribir un programa que asigne un mismo valor entero a 3 variables en una sola línea
-# y muestre por pantalla el contenido de cada una.
+#Hacer un programa en el que ingresas un número que representa cierta cantidad de
+#una fruta y divides esa cantidad por 3 chicos. Mostrar por pantalla el resultado
+def reparto(a):
+	return a/3
 
-var1=2
-var2=2
-var3=2
-print(var1,var2,var3)
+def menu():
+	fruta=int(input(" ingrese cantidad de kilos de fruta "))
+	print(f" la cantidad por cada chico es ",reparto(fruta))
+	
+	
+menu()

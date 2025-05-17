@@ -1,5 +1,13 @@
-#14. Escribir un programa que muestre por pantalla el resultado de la suma de dos
-#variables numéricas
-variable1=5
-variable2=10
-print(variable1+variable2)
+#Hacer un algoritmo que pida un número entero y determine si es múltiplo de 5.
+#Muestra un mensaje por pantalla.
+
+def pedir_numero():
+	numero1=int(input(" ingrese numero "))
+	if numero1%5==0:
+		print(" es multiplo ")
+	else:
+		print(" no es multiplo")
+		
+		
+		
+pedir_numero()

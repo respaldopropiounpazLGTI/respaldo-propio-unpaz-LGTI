@@ -1,9 +1,14 @@
-#12. Escriba un programa que contenga 3 constantes, elija 3 elementos de la tabla
-#periódica y asigne a cada una de las constantes el peso atómico de cada elemento.
-#muestre por pantalla el elemento y el peso atómico correspondiente
-HIDROGENO=1.008
-OXIGENO =16.00
-ORO=196.97
-print("HIDROGENO ","PESO ATOMICO :",HIDROGENO)
-print("OXIGENO ","PESO ATOMICO :" ,OXIGENO)
-print("ORO ","PESO ATOMICO : ", ORO)
+#Hacer un algoritmo que nos permita introducir un número, luego muestre por
+#pantalla el mensaje “Este número es positivo” o “Este número es negativo”
+
+def pedir_numero():
+	numero=int(input(" ingrese numero "))
+	if numero>0:
+		print(" es positivos ")
+	else:
+		print(" es negativo")
+		
+		
+		
+		
+pedir_numero()
